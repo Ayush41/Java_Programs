@@ -20,6 +20,8 @@ public class Madlibs {
         String adjective = scanner.next();
         scanner.close();
         
-        
+        //Displaying the output as "On a [Adjactive] [Season of the year] day, i drink a minimum of [whole number] cup of coffee"
+        System.out.println("on a" + adjective + season + "day, i drink a minimum of"+ num + "cup of coffee");
+
     }
 }
