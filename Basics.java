@@ -6,7 +6,7 @@ public class Basics{
         System.out.println("type a number:-");
         Scanner scanner = new Scanner(System.in);
         scanner.nextInt();
-
+        scanner.close();
 
 
     }

@@ -16,6 +16,6 @@ public class PayCalculator {
         double grossPay = hours * payrate;
 
         //Displaying the results
-        System.out.println("The Gross Pay is :-"+grossPay);
+        System.out.println("The Gross Pay is :-"+grossPay);//+ sign will append the value.
     }
 }
