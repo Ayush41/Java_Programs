@@ -1,19 +1,17 @@
-
+// package ThreadPackage;
+//MULTITHREADING - BY EXTENDING THREAD CLASS IN JAVA
 class A extends Thread{
     @Override
     public void run(){
-        for(int i =1;1<=5;i++){
-            System.out.println("Thread A-  + i");
-        }
+            System.out.println("Thread A");
+      
     }
 }
 
 class B extends Thread{
     @Override
-    public void run(){
-        for(int i =1;i<=5;i++){
-            System.out.println("Thread B - " + i);
-        }
+    public void run(){       
+            System.out.println("Thread B");
     }
 }
 
