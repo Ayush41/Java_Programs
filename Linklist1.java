@@ -2,7 +2,7 @@ import java.util.LinkedList;
 
 class Linklist1{
     public static void main(String[] args){
-        System.out.println("LinkedList 2 ");
+        System.out.println("basic LinkedList");
         //METHODS :-
         //addAtHead() : Adds a new node at the head of the linked list.
         //deleteNode() : Deletes a given node from the linked list.
@@ -21,7 +21,16 @@ class Linklist1{
 
         // Removign the elements;
         llist.removeLast(); //removes the last element from the list..
+
+        // LINKEDLIST AS A STACK
+        System.out.println("LinkedList as a stack");
+        LinkedList<String> stack = new LinkedList<>();
+        stack.push("one");
+        stack.push("three");
+        stack.push("niine");
+
         // Displaying the linkedlist
         System.out.println(llist);
+        System.out.println(stack);
     }
 }
